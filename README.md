@@ -12,4 +12,4 @@ Yet vehicle detections really come into their own when combined with road networ
 
 Diet Hadrade provides a number of graph theory analytics that combine the CRESI road graph with the YOLTv5 locations of vehicles.  This allows congestion to be estimated, as well as optimal lines of communication and evacuation scenarios.  In the cells below we provide an example of the analytics that can be performed with this codebase.  Of particular note, the test city select below (Dar Es Salaam) is not represented in any of the training data for either CRESI or YOLTv5.  The implication is that the Diet Hadrade methodology is quite robust and can be applied immediately to unseen geographies whenever a new need may arise.
 
-See [diet_hadrade.ipynb](https://github.com/avanetten/diet_hadrade/tree/main/notebooks) for examples.
+See [diet_hadrade.ipynb](https://github.com/avanetten/diet_hadrade/blob/main/notebooks/diet_hadrade.ipynb) for examples.
