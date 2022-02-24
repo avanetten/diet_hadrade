@@ -18,7 +18,7 @@ See [diet_hadrade.ipynb](https://github.com/avanetten/diet_hadrade/blob/main/not
 Vehicles (boxes) + roads (yellow/orange lines) extracted in Dar Es Salaam.
 
 ![Alt text](/figs/evac0.png?raw=true "")
-Optimal evacuation routes for vehicles of interest (buses in this case).
+Optimal evacuation routes for vehicles of interest (trucks in this case).
 
 ![Alt text](/figs/crit_nodes0.png?raw=true "")
 Critical nodes in the road network for the above evacuation scenario.

@@ -24,12 +24,12 @@ root_path = os.path.dirname(src_path)
 sys.path.extend([src_path])
 
 ###############################################################################
-def load_data(graph_path, bbox_path, 
+def build_graph(graph_path, bbox_path, 
             min_YOLT_prob=0.05, 
             max_dist_m=5,
             # max_aug_dist=10,
             dist_buff=20):
-    '''load data
+    '''Build the road + vehicle graph
     # max_dist_m = 5   # max distance vehicle can be from road
     # dist_buff = 80  # radius to look for nodes when finding nearest edge
     # max_aug_dist    # distance to extrapolate control values
@@ -111,7 +111,7 @@ def run(graph_path, bbox_path,
     '''
 
     # load data
-    G, df_bbox, g_node_props_dic, kd_idx_dic, kdtree, auglist = load_data(graph_path, bbox_path, 
+    G, df_bbox, g_node_props_dic, kd_idx_dic, kdtree, auglist = build_graph(graph_path, bbox_path, 
             min_YOLT_prob=0.05, max_dist_m=50,
             dist_buff=80)
     G, edge_update_dict = update_G()
