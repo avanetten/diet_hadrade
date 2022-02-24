@@ -14,15 +14,17 @@ Diet Hadrade provides a number of graph theory analytics that combine the CRESI 
 
 See [diet_hadrade.ipynb](https://github.com/avanetten/diet_hadrade/blob/main/notebooks/diet_hadrade.ipynb) for a tutorial, which yields outputs like the images below.
 
+-----
 ![Alt text](/figs/cars+roads0.png?raw=true "")
 Vehicles (boxes) + roads (yellow/orange lines) extracted in Dar Es Salaam.
 
+-----
 ![Alt text](/figs/evac0.png?raw=true "")
 Optimal evacuation routes for vehicles of interest (trucks in this case).
 
+-----
 ![Alt text](/figs/crit_nodes0.png?raw=true "")
 Critical nodes in the road network for the above evacuation scenario.
-
 
 
 
