@@ -14,6 +14,8 @@ Diet Hadrade provides a number of graph theory analytics that combine the CRESI 
 
 See [diet_hadrade.ipynb](https://github.com/avanetten/diet_hadrade/blob/main/notebooks/diet_hadrade.ipynb) for a tutorial, which yields outputs like the images below.
 
+Also see our [explainer video](https://www.youtube.com/watch?v=QUjztPmKFf8) and [blog](https://medium.com/geodesic/the-potent-mix-of-machine-learning-satellite-imagery-vehicles-and-roads-diet-hadrade-34795396c39e).
+
 -----
 ![Alt text](/figs/cars+roads0.png?raw=true "")
 Vehicles (boxes) + roads (yellow/orange lines) extracted in Dar Es Salaam.
